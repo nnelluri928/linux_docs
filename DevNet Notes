@@ -1,0 +1,142 @@
+When the server receives an invalid XML document (The specified XML is not syntactically valid), the server will respond with 400. Some services will respond with a reason string as well. Other code in the choices do not necessarily make sense in this context.
+The “404”—Page Not Found” error code is displayed when a requested resource is no longer available in the server.
+405—Method Not Allowed” is an error received if the request method mentioned in the request is not supported for the resource.
+The “403—Forbidden” code is received when a server receives a valid request but denies to respond.
+“409—Conflict” is received when the request received by the server conflicts with another request.
+
+Rate-limiting is an essential REST API design method for developers. Rate-limiting techniques are used to increase security,
+business impact, and efficiency across the board or end to end.
+
+Webhooks are user-defined HTTP callbacks. A webhook is triggered by an event, such as pushing code to a repository or typing a keyword in a chat window.
+In this case, it is the user login event. An application implementing webhooks sends a POST message to a URL when a specific event happens.
+
+Extensible Markup Language (XML) is a markup language that encodes information between descriptive tags. XML is a superset of Hypertext Markup Language (HTML), which was originally designed to describe the formatting of web pages served by servers through HTTP. The encoded information is defined within user-defined schemas that enable any data to be transmitted between systems. An entire XML document is stored as text, and it is both machine readable and human readable.
+XML has two MIME types: application/xml and text/xml. These are often used interchangeably, but there is a subtle difference, which is why application/xml is generally recommended over the latter.
+HTTP PATCH requests are used for making a partial update on a resource. A PATCH verb is the correct choice for partially updating an existing resource. PUT should only be used if you are replacing a resource in its entirety.
+
+Cisco vManage also exposes a self-documenting web interface for the REST API. This web interface is enabled by default and can be accessed at https://vManage_IP_or_hostname:port/apidocs. The vManage_IP_or_hostname would be, of course, the IP address or hostname of the Cisco vManage server. The port is typically 8443.
+
+What is the Cisco SD-WAN authentication cookie called?
+The long string after JSESSIONID is the value of the authorization cookie that will be needed in all subsequent API calls.
+
+What type of time format is required for the timestamp value in Cisco DNA Center API calls?
+f I want to retrieve the health status of all the clients connected to the network on Thursday, August 22, 2019 8:41:29 PM GMT, the UNIX time in milliseconds would be 1566506489000. Keep in mind that based on the data retention policy set in Cisco DNA Center, client data might not be available for past distant time frames.
+
+IP Address Management (IPAM) integrations are also supported by the Integration APIs. Importing IP pools information from IPAM systems like Infoblox and Bluecat into Cisco DNA Center is seamless. Synchronization of IP pool/sub-pool information between Cisco DNA Center and IPAM systems is also supported.
+
+The first step you need to take to have access to the Dashboard API is to enable it. Begin by logging into the Cisco Meraki dashboard at https://dashboard.meraki.com by using your favorite web browser and navigate to Organization > Settings. From here, scroll down and locate the section named Dashboard API access and make sure you select Enable Access and Save the configuration changes at the bottom of the page.
+
+The expensive intelligence from the control plane is contained to a few devices that become the brains of the network, whereas the data plane is built with cheaper devices that implement only fast forwarding. The convergence of this new network, which represents the amount of time it takes for all devices to agree on a consistent view of the network, should be much lower than in the case of the non-SDN architectures of the past. Having networks of similar sizes, the ones that were built with network devices that implement both control and data plane in their architecture take much longer to exchange all the information needed to forward data traffic than the networks that implement separate control and data plane functionality in their architecture. Depending on the size of the network, this would result in waiting for thousands of devices to exchange information through their control plane protocols and settle on a certain view of the network or wait for tens of SDN controllers to accomplish the same task. The convergence time improvements are massive.
+
+The UCS infrastructure that is being managed by UCS Manager forms a UCS fabric that can include up to 160 servers. The system can scale to thousands of servers by integrating individual UCS Managers with Cisco UCS Central in a multidomain Cisco UCS environment.
+
+Cisco Intersight offers flexible deployment options either as Software as a Service (SaaS) on https://intersight.com or running a Cisco Intersight virtual appliance on premises. Some of the benefits of using Cisco Intersight are the following:
+Simplify Cisco UCS and Cisco HyperFlex management with a single management platform.
+Scale across data center and remote locations without additional complexity.
+Automate the generation and forwarding of technical support files to the Cisco Technical Assistance Center to accelerate the troubleshooting process.
+Full programmability and automation capabilities are available through a REST API interface.
+A streamlined upgrade process is available for standalone Cisco UCS servers.
+
+When a service profile is associated with a server, Cisco UCS Manager automatically configures the server, adapters, fabric extenders, and fabric interconnects to match the configuration specified in the service profile. With service profiles, the infrastructure can be provisioned in minutes instead of days.
+
+Cisco UCS Director replaces manual configuration and provisioning processes with orchestration to optimize and simplify delivery of data center resources.
+From a data center management perspective, the following are some of the tasks that can be performed using Cisco UCS Director:
+? Create, clone, and deploy service profiles and templates for all Cisco UCS servers and compute applications.
+? Manage, monitor, and report on data center components such as Cisco UCS domains or Cisco Nexus devices.
+? Monitor usage, trends, and capacity across a converged infrastructure on a continuous basis.
+? Deploy and add capacity to converged infrastructures in a consistent, repeatable manner.
+
+There are some essential concepts needed to understand how the Cisco UCS Director orchestrator works. First, there is the concept of a task. A task is the atomic unit of work in Cisco UCS Director, cannot be decomposed into smaller actions, and represents a single action with inputs and outputs.
+
+The second concept is the workflow. A workflow is a series of tasks arranged to automate a complex operation. The simplest workflow contains a single task, but workflows can contain any number of tasks. Workflows are at the heart of Cisco UCS Director orchestration. They automate processes of any level of complexity.
+
+Finally, libraries and catalogs are collections of predefined tasks and workflows that can be used as building blocks for more advanced workflows.
+
+The ACI controller is the main architectural component of the Cisco ACI solution and provides a single point of automation and management for the Cisco ACI fabric, policy enforcement, and health monitoring.
+
+Best practices around application design to protect the end user require that only the scopes necessary and required for application functionality be selected. When an end user is prompted to accept scope requests, the user may be disinclined to accept an application that requests something outside the description of the application. Selecting all is only recommended when using the SDK, or widgets. Scopes can always be added or removed at a later iteration of your application development, so it is not necessary to include future required scopes, but it also wouldn’t make sense to add none because you will need to do some testing.
+
+The suite of APIs in Cisco WebEx Teams (developer.webex.com) does not allow for basic authentication. To build an app, one would have to use an OAuth workflow, a developer token, or a guess token. All the other Collaboration APIs outlined in Chapter 10 have an API that allows for basic authentication. It is important to keep in mind, if available, that in a production environment it is preferred to use an OAuth method.
+
+Guest users can only interact with regular Cisco WebEx Teams users. The process to generate a guest token starts at the developer portal, where a guest issuer ID and secret are generated. Then, using this information, as well as the JWT standard to generate a JWT guest token, it is authenticated with the Cisco WebEx APIs to generate an access token that can be used with the Cisco WebEx APIs.
+
+The Administrative XML (AXL) is a powerful provisioning API to extend Cisco Unified Communications Manager (Unified CM). AXL is an XML/SOAP-based interface that provides a mechanism for inserting, retrieving, updating, and removing data from the Unified Communication configuration database. Developers can use AXL and the provided Web Services Description.
+
+For this flow to happen, the bot first needs to correct the space to generate a roomId, which will then be used in the POST /memberships call to add an end user into the designated space. Then the bot can use this same roomId to post a message to the space. Note that a space is the marketing term, whereas the API uses room as the designator.
+
+Personal access tokens are used for development purposes only. They have a limited life span and do not limit the scopes in which the authentication happens. Integrations utilize OAuth 2.0 grant flow,  an industry protocol for end user authentication. Through this process, Cisco WebEx users authorize the use of an application with their account. This mechanism restricts the scopes that must be approved by the end user who goes through the flow, separates the application from the token-issuing server, and results in an authorization token as well as a refresh token, both with an expiration of 14 and 90 day, respectively. Bots cannot perform OAuth; therefore, a Bot token is the only way in for a bot to function. A guest issuer application will follow a JSON Web Token (JWT) standard and will require authentication against the Cisco WebEx API for token generation. The process is itself a secure mechanism.
+
+Cisco Stealthwatch enhances threat defense by giving detailed network visibility and security analytics. It helps you know every host, record every conversation, and understand what is normal. It alerts you to change and enables you to detect and respond to threats quickly. Stealthwatch uses industry-leading machine learning so that you know who is on your network and what they are doing, using telemetry from your own infrastructure.
+
+An FMC object is a container of information that you can use in one or more security policies. Objects make it easy to maintain policy consistency. Certain predefined objects are groupable, which explains the various object types that are defined in Firepower Management Center. The Application Filtering is often used to create rules that will block or allow traffic aside from the usual packet's 5-Tuple. You can also use Application Filtering if an application uses a nonstandard or customized port (that is, Instant Messaging and peer-to-peer tunneled via HTTP/HTTPS protocol or a dynamic range of ports; file sharing or peer-to-peer protocol [Torrent]). Because each application is unique, grouping is not possible.
+
+Cisco Advanced Malware Protection (AMP) for Endpoints is a cloud-managed endpoint security solution that provides advanced protection against viruses, malware, and other cyber threats by detecting, preventing, and responding to threats.
+Prevent: Strengthen defenses using the best global threat intelligence and block malware in real time.
+Detect: Continuously monitor and record all file activity to quickly detect stealthy malware.
+Respond: Accelerate investigations and automatically remediate malware across PCs, Macs, Linux, servers, and mobile devices (Android and iOS).
+
+Cisco Threat Grid provides content feeds that are pre-generated, curated sets of behavioral indicators produced in the Threat Grid Cloud infrastructure from sample analysis results. Threat Grid supports three different types of feeds:
+Sample feeds: These are all observables seen.
+Indicator of Compromise (IOC) feeds: These are observables seen via business intelligence. IOCs are used to indicate that the system has been affected by some form of malware.
+Curated feeds: These are highly curated and high-confidence feeds.
+
+According to NIST, a man-in-the-middle attack is a form of active wiretapping in which the attacker intercepts and selectively modifies communicated data to masquerade as one or more of the entities involved in a communication association. As you can see, the mailman in this example actively participates in opening sensitive data, seeing it, and putting it back. The end user is unaware.
+An intrusion detection system (IDS) works in real time but on a copy of the network traffic. Usually, an IDS is not collocated with a network element such as a router or switch. It does deep packet inspection of packets; however, an IDS does not take action even if it determines that a packet is vulnerable. It relies on another application to do the needful.
+
+Timely collection of network statistics data is critical to ensuring the network performs as expected and to foresee and prevent any impending problems that might arise. Technologies like SNMP, syslog, and CLI have been used historically to gather this state information from the network. Using a pull model to gather the data, in which the request for network data originates from the client, does not scale and restricts automation efforts. With this model, the network device sends data only when the client manually requests it. A push model continuously streams data from the network device to the client. Telemetry enables the push model, providing near instantaneous access to operational data. Clients can subscribe to specific data they need by using standard-based YANG data models delivered over NETCONF.
+
+SNMP had proven to work reasonably well for monitoring devices, especially when small amounts of information needed to be retrieved. For configuration purposes, the protocol had pretty much failed for different reasons, including lack of writable MIBs, security concerns, and scale constraints.
+YANG defines four types of nodes for data modeling:
+? Leaf nodes
+? Leaf-list nodes
+? Container nodes
+? List nodes
+
+The information that can be retrieved from a NETCONF server is separated into two classes: configuration data and state data or operational data. Configuration data is the set of writable data that starts the system operations, and operational data is the nonconfiguration data of the system, also known as the read-only status data (that is, interface traffic statistics, power supply status).
+A container image is built on a union file system that consists of layers of joined software that is read-only by default. It can only be launched by a container run time and is not natively compatible with hardware virtualization software.
+
+Virtual machines virtualize the underlying hardware of the server they are running on. You will need to install an operating system for each virtual machine, using resources and memory. Containers, on the other hand, virtualize the host operating system kernel, which means that a container image only needs the application code, any binaries and libraries, or other necessary packages to run. This results in significantly fewer resources consumed than a virtual machine.
+A public cloud has the following benefits:
+Scalability
+Pay-as-you-go consumption model
+Little to no upfront infrastructure costs
+Cloud provider performs all maintenance
+
+Culture: For DevOps to work, organizational culture must change. This is by far one of the most difficult aspects to embrace, but it is the single most important factor for success. DevOps requires a culture of sharing.
+Automation: Although DevOps is more than just a set of software tools, automation is the most easily identifiable benefit. By leveraging automation techniques, the deployment process is greatly sped up, defects are caught and corrected earlier, and repetitive tasks no longer need human intervention.
+Lean: Reducing wasted efforts and streamlining the process are the goals of Lean. It is a management philosophy of continuous improvement and learning.
+Measurement: Without measuring your results, you can never improve. Success with DevOps requires the measurement of performance, process, and people metrics as often as is feasible.
+Sharing: Feedback and sharing information is the kind of culture that is needed for DevOps to flourish. Breaking down silos and creating an inclusive shared fate environment is the goal
+
+Edge computing allows for compute and networking resources to be positioned closer to the application workload, sensors, and other devices. By having compute resources closer, your application does not have to wait for all processing to travel across the network, reducing latency and enabling faster reaction times to detected events.
+Namespaces provide isolation between applications running on a Linux kernel. Cgroups are essential for allocating memory, storage, network, and CPU to a running container. Without these containers, that would not be possible.
+
+According to NIST, a firewall is a device that has a network protection application installed to safeguard the network from intentional or unintentional intrusion. A firewall sits at the junction point or gateway between the two networks: usually a private network and a public network such as the Internet. The three most important components to a firewall are the Intrusion Prevention System (IPS), stateful filtering, and authentication proxy services.
+hreat-modeling methods are used to create
+An abstraction of the system
+Profiles of potential attackers, including their goals and methods
+A catalog of potential threats that may arise
+The STRIDE framework (Spoofing, Tampering, Repudiation, Information Leak, DoS, Elevation of Privilege) is used for threat modeling in SDLC.
+
+Multifactor authentication (MFA) uses two or more factors to achieve authentication. Factors include (i) something you know (e.g., password/personal identification number (PIN)); (ii) something you have (e.g., cryptographic identification device, token); or (iii) something you are (e.g., biometric).
+
+A reverse proxy is a server that sits in front of web servers and forwards client (for example, web browser) requests to those web servers. Reverse proxies are typically implemented to help increase security, performance, and reliability. Benefits of reverse proxy include load-balancing, SSL termination, compression, content filtering, and authentication to name a few
+One can use a private key for encryption and your public key for decryption. Rather than encrypting the data itself, you can create a one-way hash of the data and then use the private key to encrypt the hash. The encrypted hash, along with other information, such as the hashing algorithm, is known as a digital signature.
+
+Some of the limitations of the IT infrastructure of the past are the following: high cost to deploy and maintain; long waiting times for new infrastructure to be ready for production that is slowing down new application deployments, incumbering innovation and fast prototyping; and difficulty in troubleshooting because each environment is slightly different.
+The logical architecture of Cisco NSO outlines the dual-layered approach: a device manager component that handles the device configuration scenarios and a service manager component that provides an interface for the administrator to define the services that need to be implemented in the network.
+Taking advantage of infrastructure as code, network configurations can be stored in version control systems, and build servers can be used to integrate with solutions like Cisco VIRL (Virtual Internet Routing Lab), also known as CML2,  to dynamically instantiate virtual networks, test the configuration changes in the virtual network and, if the tests pass, use automation solutions such as Ansible to perform the desired changes in the production network.
+Ansible playbooks are files that contain an ordered set of tasks that will be run in the order they are defined as many times as needed. Playbooks are written in YAML, which makes them easy to read, write, and share. It is common to name the main playbook as site.yml, but this is not mandatory
+
+The main components of Cisco NSO are the following:
+Service Manager
+Device Manager
+Mapping Logic
+Configuration database
+
+Some of the issues that cause the data link layer not to function as expected follow:
+Misconfigured switch port
+Layer 2 access control lists
+Misconfigured Spanning Tree Protocol
+Missing or misconfigured VLANs
+A caching mechanism is available with DNS for the client queries to be resolved as fast as possible. DNS caching means temporarily storing results obtained during previous requests on DNS servers that are close to the client. By caching DNS resolution data, the client queries can be resolved earlier in the DNS lookup chain, improving resolution time and reducing bandwidth and CPU consumption.
